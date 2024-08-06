@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 50vh;
+    width: 30vw;
+    border: 1px solid rgb(8, 1, 15);
+}
+
+img{
+    border: 1px solid black;
+    height: 65%;
+    width: 100%;
+}
+pre{
+    color: blue;
+}
+strike{
+    color: black;
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:baseline;
+    justify-content: space-evenly;
+}
+.value{
+    color: rgb(113, 113, 230);
+}
+.pe{
+    padding: 5px;
+    border-radius:5px;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: rgb(61, 203, 156);
+}
+
